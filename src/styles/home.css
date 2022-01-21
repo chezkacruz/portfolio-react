@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Montserrat:wght@400;500;600;700;900&family=Source+Serif+Pro:wght@400;900&display=swap');
+
+body{
+  overflow-x:hidden; 
+}
+.Home{
+  min-height: 100vh;
+  display: flex;
+  max-width: 100vw;
+}
+.home-content{
+  z-index: 1;
+  width: 100%;
+  max-width:1500px;
+  padding-top: 10rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+#my-name-is{
+  color: black;
+  margin-top: 5%;
+  font-family: 'Montserrat', sans-serif;
+  font-style: bold;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+#my-name{ 
+  font-family: 'Source Serif Pro', serif;
+  font-size: 5rem;
+  color: #EB6E80;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#im-a{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  margin-top: 0;
+}
+#title {
+  color:#008F95;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 819px){
+  .blob-1{
+    display: none;
+  }
+  .blob-2{
+    display: none;
+  }
+
+  .blob-3{
+    width: 100px;
+    height: 50vw;
+    margin-left: 0px;
+  }
+  #my-name{
+    font-size: 3rem;
+  }
+  #title{
+    font-size: 1.5rem;
+  }
+  #im-a{
+    font-size: 1.5rem;
+  }
+  
+
+  #my-name-is{
+    margin-top: -30px;
+    font-size: 1.5rem;
+  }
+}
