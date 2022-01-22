@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Navbar.css'
-import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+import { Link, Events, animateScroll as scroll, scroller } from 'react-scroll'
 
 
 class Navbar extends Component {
@@ -83,7 +83,7 @@ class Navbar extends Component {
                     <li><Link activeClass="active" className="nav-links" to="Home" spy={true} smooth={true} duration={500}>HOME</Link></li>
                     <li><Link activeClass="active" className="nav-links" to="About" spy={true} smooth={true} duration={500}>ABOUT</Link></li>
                     <li><Link activeClass="active" className="nav-links" to="Experience" spy={true} smooth={true} duration={500}>EXPERIENCE</Link></li>
-                    <li><Link activeClass="active" className="nav-links" to="Experience" spy={true} smooth={true} duration={500}>PROJECTS</Link></li>
+                    <li><Link activeClass="active" className="nav-links" to="Projects" spy={true} smooth={true} duration={500}>PROJECTS</Link></li>
                     <li><Link activeClass="active" className="nav-links" to="Experience" spy={true} smooth={true} duration={500}>CONTACT</Link></li>
                 </ul>
 
